@@ -13,10 +13,7 @@ Param (
     $StorageAccountName,
 
     [Parameter(Mandatory=$true)]
-    $ConfigurationName,
-
-    [Parameter(Mandatory=$true)]
-    $SourceImageUri
+    $ConfigurationName
 )
 
 $dscConfigParams = @{
