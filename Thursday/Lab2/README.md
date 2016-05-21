@@ -5,7 +5,7 @@ Create two Azure Web Apps:
 * Create a new resource group
 * Add a new Web App to the resource group in West US. Name the app so you can tell where its provisioned (e.g. 23WebAppWest)
 * Add a new Web App to the resource group in East US. Name the app so you can tell where its provisioned (e.g. 23WebAppEast)
-* Install the Visual Studio extention
+* Install the [Open From Azure Websites](https://visualstudiogallery.msdn.microsoft.com/60d414b1-4ead-4fde-9359-588aa126cd6c) Visual Studio extention
 * Download the publish profiles for each Web App
 
 Do this for each Web App:
