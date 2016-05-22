@@ -5,5 +5,5 @@
 * Verify that you can connect via RDP and SSH to your servers
 * Delete the resource group
 * Review the code in the New-AzureServer.ps1 script. Create a new server using this script
-* Try out the VMAccess extension to create a new local admin account or to reset the existing account password, verify this works
+* Try out the VMAccess extension to create a new local admin account or to reset the existing account password, verify this works (you can use the portal for this one)
 * Delete all resource groups in your Azure Pass subscription when complete
