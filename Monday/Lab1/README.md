@@ -1,4 +1,4 @@
-# Lab1 - Installing Azure tools, Visual Studio Code, and Github
+# Lab1 - Installing Azure tools, Microsoft Azure SDK for .NET, and Github for Windows
 
 * Use the Web Platform installer to install Microsoft Azure PowerShell
 * Use the Web Platform installer to install Microsoft Azure SDK for .NET (VS 2015) Note: Make sure you select the VS 2015 option, not the VS 2013 option.
