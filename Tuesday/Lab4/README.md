@@ -1,8 +1,8 @@
-# Lab 4 - Create an Ubuntu Linux Web Server with DSC Extention
+# Lab 4 - Deploy an AD DS Domain Controller and use Domain Join Extention to add new servers to the domain
 
-* Launch a Ubuntu 14.04 VM
-* Generate a .mof file for the apache web server configuration (use ApacheWebServer.ps1 in this repo)
-* Upload your .mof file to blob storage
-* Use the remaining scripts in this repo to publish the .mof file and apply the configuration to the linux server
-* Verify you can visit the apache welcome page from the outside world
-* Delete the resource group from your Azure Pass subscription
+* Launch the AD Domain Controller ARM template from [here](https://github.com/Azure/azure-quickstart-templates/tree/master/active-directory-new-domain)
+* Launch a new server into the same resource group / vnet as the domain controller
+* Make sure your new VM can resolve DNS against the domain controller
+* Use the Azure joindomain extention to join the server to your AD domain (see DomainJoin-Extention-Example.ps1)
+* Delete the resource group from your Azure Pass subscription when complete
+

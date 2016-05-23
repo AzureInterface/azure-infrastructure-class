@@ -1,7 +1,7 @@
-# Lab2 - Create Windows Web Server with DSC
+# Lab 2 - Create Windows Web Server with DSC Extention
 
-* Launch a Windows Server 2012 R2
-* Install the xWebAdministration DSC module on the server
-* Install IIS and a simple web page using DSC (see WindowsWebServer.ps1 for an example)
-* Modify your network security group rules to permit HTTP from the outside world. Verify you can view your web page
-* Delete your resource group from your Azure Pass subscription when complete
+* Launch a Windows Server 2012 R2 VM
+* Publish your web server DSC configuration from the last lab to Azure (use the code samples in this repo for inspiration)
+* Use the Azure DSC VM extention to push the configuration to your server
+* Verify you can review the web page from the outside world
+* Delete all resource groups from your Azure Pass subscription when complete
