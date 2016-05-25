@@ -1,4 +1,4 @@
-﻿#adding a data disk to a VM that was captured as part ofSave-AzureRmVMImage
+﻿#adding a data disk to a VM that was captured as part of Save-AzureRmVMImage
 $vm = Get-AzureRmVM -Name web2 -ResourceGroupName webservers
 
 $dataDiskname = 'web2-data-disk'
