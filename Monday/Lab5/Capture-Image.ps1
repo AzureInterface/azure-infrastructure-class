@@ -2,8 +2,7 @@
 
 Windows Server post sysprep command examples
 
-NOTE: Save image in a seperate resource group / storage account 
-dedicated for custom images
+NOTE: this is just an example, you'll need to define your variables, etc.
 
 #>
 Stop-AzureRmVM -ResourceGroupName $resourceGroup -Name $vmName
