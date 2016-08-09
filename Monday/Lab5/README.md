@@ -6,5 +6,4 @@ Create a new Windows VM or power on an existing Windows VM in your Azure Pass su
 * Run sysprep to generalize the server
 * Use the PowerShell script samples in this repo to generalize your VM and capture an image
 * Deploy a new server with your image
-* Add a server based on your custom image to an existing resource group
 * Delete all resource groups from your Azure Pass subscription when complete
