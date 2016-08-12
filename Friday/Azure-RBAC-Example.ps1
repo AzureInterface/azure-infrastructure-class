@@ -6,11 +6,29 @@ https://azure.microsoft.com/en-us/documentation/articles/role-based-access-contr
 
 #Creating and assigning a custom role
 
-$role = Get-AzureRmRoleDefinition 'Virtual Machine Contributor'
-$role.Actions.Add('Microsoft.Automation/automationAccounts/jobs/read')
-Set-AzureRmRoleDefinition -Role $role
+$Role = Get-AzureRmRoleDefinition -Name "Virtual Machine Contributor"
+$Role.Id = $Null
+$Role.Name = "test"
+$Role.Description = "Can monitor, start, and restart virtual machines."
+$Role.Actions.RemoveRange(0,$Role.Actions.Count)
+$Role.Actions.Add("Microsoft.Compute/*/read")
+$Role.Actions.Add("Microsoft.Compute/virtualMachines/start/action")
+$Role.Actions.Add("Microsoft.Compute/virtualMachines/restart/action")
+$Role.Actions.Add("Microsoft.Network/*/read")
+$Role.Actions.Add("Microsoft.Storage/*/read")
+$Role.Actions.Add("Microsoft.Authorization/*/read")
+$Role.Actions.Add("Microsoft.Resources/subscriptions/resourceGroups/read")
+$Role.Actions.Add("Microsoft.Resources/subscriptions/resourceGroups/resources/read")
+$Role.Actions.Add("Microsoft.Insights/alertRules/*")
+$Role.Actions.Add("Microsoft.Support/*")
+$Role.AssignableScopes.Remove("/") | Out-Null
+$Role.AssignableScopes.Add("/subscriptions/d8dd8ffe-ca5c-425f-b0a7-d6d4a050c293")
 
-$user = Get-AzureRmADUser -UserPrincipalName dave@psdemoawsgmail.onmicrosoft.com
+New-AzureRmRoleDefinition -Role $Role
 
-$sub = Get-AzureRmSubscription -SubscriptionName 'Azure Pass'
-New-AzureRmRoleAssignment -ObjectId $user.Id -RoleDefinitionName 'Virtual Machine Contributor' -Scope '/subscriptions/a4fb11b2-a79c-4e9b-b0de-7272a7153ea3'
+$user = Get-AzureRmADUser -UserPrincipalName dave@azurepassprotonmail.onmicrosoft.com
+
+
+New-AzureRmRoleAssignment -ObjectId $user.Id `
+-RoleDefinitionName 'Virtual Machine Contributor' `
+-Scope '/subscriptions/d8dd8ffe-ca5c-425f-b0a7-d6d4a050c293'
