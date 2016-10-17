@@ -1,5 +1,7 @@
-﻿$Resource = Get-AzureRmResource -ResourceType "Microsoft.ClassicCompute/storageAccounts" -ResourceName "ContosoStorageAccount"
-Move-AzureRmResource -ResourceId $Resource.ResourceId -DestinationResourceGroupName "ResourceGroup14"
+$r = Get-AzureRmResource -ResourceName mikepf16 -ResourceGroupName servers
+
+Move-AzureRmResource -ResourceId $r.ResourceId `
+-DestinationResourceGroupName servers2
 
 
 
