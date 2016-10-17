@@ -1,6 +1,6 @@
 # Lab 2 - Creating and moving Azure resources with PowerShell
 
-All of the steps below should be completed with PowerShell, not the portal
+All of the steps below should be completed with PowerShell, not the portal (Hint: use the Get-Command and Get-Help cmdlets to get examples)
 
 * Create a new resource group
 * Create a new storage account in your resource group
