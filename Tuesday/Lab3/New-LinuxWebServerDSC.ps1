@@ -1,3 +1,5 @@
+#Note: make sure you update the file url, storage account name, storage account key, and VMname
+
 $extensionName = 'DSCForLinux'
 $publisher = 'Microsoft.OSTCExtensions'
 $version = '2.0'
