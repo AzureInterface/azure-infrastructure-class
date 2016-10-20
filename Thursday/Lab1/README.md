@@ -2,6 +2,7 @@
 
 Deploy a Web App to Azure:
 
+* Spin up a VM with Visual Studio 2015
 * Use Visual Studio to create a new Web Application
 * Go to file > new > project and create an empty ASP.NET website
 * Right click the project name (e.g. WebApplication1) in the Solution Explorer, go to add > add new item, and add an html page to the project called default.html
@@ -17,6 +18,6 @@ Create a "Dev" Deployment Slot
 * Navigate to your "dev" url to see the new version of the Web App
 * After you confirm you have two different versions of your Web App running in the prod and dev deployment slots, perform a deployment slot swap in the portal.  Swap using the "dev" site as the source to destination "production". This simulates moving a new version of your app into production
 * Navigate to the production url to confirm the new version of the app is running there
-* Delete all resource groups from your Azure Pass subscription when complete
+* Keep your Visual Studio VM for the next lab!
 
 
