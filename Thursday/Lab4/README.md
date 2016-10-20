@@ -4,7 +4,7 @@ Backup/Snapshot a Virtual Machine
 
 * Deploy a Windows virtual machine
 * Navigate to Recovery Services vaults in the portal
-* Add a new vault
+* Add a new vault (note: search for "backup")
 * Add a new backup job, select "Virtual Machine" for the workload
 * Kick off a manual backup job to snapshot the VM (this will probably take about 30mins)
 
