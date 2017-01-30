@@ -1,11 +1,16 @@
-$r = Get-AzureRmResource -ResourceName mikepf16 -ResourceGroupName servers
+<#
+  Here's an example of how you might do lab2 with AzureRM PowerShell
+#>
 
-Move-AzureRmResource -ResourceId $r.ResourceId `
--DestinationResourceGroupName servers2
+New-AzureRmResourceGroup -Name MyServers -Location WestUs
 
-# here's another way to do it using the pipeline 
+New-AzureRmStorageAccount -ResourceGroupName MyServers `
+-AccountName mikepf20172 `
+-Location westus `
+-SkuName standard_lrs `
+-Kind storage
 
-Get-AzureRmResource -ResourceName mikepf16 `
--ResourceGroupName servers2 | 
-    Move-AzureRmResource -DestinationResourceGroupName servers
+New-AzureRmResourceGroup -Name MyServers2 -Location WestUs
 
+Get-AzureRmResource -ResourceName mikepf20172 -ResourceGroupName MyServers | 
+  Move-AzureRmResource -DestinationResourceGroupName MyServers2
