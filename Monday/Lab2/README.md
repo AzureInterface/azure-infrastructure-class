@@ -1,5 +1,7 @@
 # Lab 2 - Creating and moving Azure resources with PowerShell
 
+In this lab will perfom our task in the Azure portal, and then repeat that task using Azure PowerShell
+
 #Azure Portal
 
 Complete the following steps in the Azure Portal
