@@ -2,7 +2,7 @@
 
 In this lab will perfom our task in the Azure portal, and then repeat that task using Azure PowerShell
 
-#Azure Portal
+**Step 1 - Azure Portal**
 
 Complete the following steps in the Azure Portal
 
@@ -12,7 +12,7 @@ Complete the following steps in the Azure Portal
 * Move your storage account to the second resource group
 * Delete all resource groups from your Azure Pass subscription when complete
 
-#AzureRM PowerShell
+**Step 2 - AzureRM PowerShell**
 
 Complete the following steps in PowerShell using the AzureRM module
 
