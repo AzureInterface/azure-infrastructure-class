@@ -56,7 +56,7 @@ Write-Verbose "Creating network interface config"
 $nic = New-AzureRmNetworkInterface @nicParams
 
 Write-Verbose 'Creating vm config'
-$vm = New-AzureRmVMConfig -VMName $VMName -VMSize 'Basic_A1'
+$vm = New-AzureRmVMConfig -VMName $VMName -VMSize 'Standard_DS2_v2'
 
 $osParams = @{
     VM = $vm
