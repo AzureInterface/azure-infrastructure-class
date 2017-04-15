@@ -2,7 +2,12 @@
 
 You can use your local machine for this lab, no VM needed
 
-* Navigate to your storage account in the portal
-* Go to files
-* Create a new file share
-* Map the drive locally and ensure you can read/write to it
+1. Create a storage account if you don't already have one and make sure that it is a standard storage account type
+2. Go to files
+3. Create a new file share
+4. Map the drive locally and ensure you can read/write to it
+
+### Notes
+
+Get started with Azure File storage on Windows
+* https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-files
