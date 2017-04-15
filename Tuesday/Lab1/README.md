@@ -3,7 +3,7 @@
 1. Launch a Windows Server 2016 VM
 2. Install the xWebAdministration DSC module on the server (e.g. *Install-Module xWebAdministration*)
 3. Install IIS and a simple web page using DSC (use the WindowsWebServer.ps1 script in this repo)
-4. Modify your network security group rules to permit HTTP from the outside world and verify you can view your web page
+4. Modify your network security group rules to permit HTTP from the outside world and verify you can view the default web page
 5. Delete your resource group from your Azure Pass subscription when complete
 
 ### Notes
