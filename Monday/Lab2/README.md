@@ -1,23 +1,22 @@
-# Lab 2 - Creating and moving Azure resources with PowerShell
+# Lab 2 - Create and connect to Azure Virtual Machines
 
-In this lab will perfom our task in the Azure portal, and then repeat that task using Azure PowerShell
+1. Create a new resource group in the portal
+2. Create a Windows Server and Ubuntu Server in your new resource group
+3. Verify that you can connect via RDP and SSH to your servers
+4. Delete the resource group
+5. Review the code in the New-AzureServer.ps1 script. Create a new server using this script
+6. Reset the admin password on one of your VMs and reconnect to ensure it worked
+7. Delete all resource groups in your Azure Pass subscription when complete
 
-**Step 1 - Azure Portal**
+Bonus: Download and run the script in this repository (New-AzureServer.ps1) to create a VM from PowerShell
 
-Complete the following steps in the Azure Portal
+### Notes:
 
-* Create a new resource group
-* Create a new storage account in your resource group
-* Create another resource group
-* Move your storage account to the second resource group
-* Delete all resource groups from your Azure Pass subscription when complete
+Create a Windows virtual machine with the Azure portal
+* https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
 
-**Step 2 - AzureRM PowerShell**
+Create a Linux virtual machine with the Azure portal
+* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal
 
-Complete the following steps in PowerShell using the AzureRM module. Don't forget to use Get-Command and Get-Help for hints!
-
-* Create a new resource group
-* Create a new storage account in your resource group
-* Create another resource group
-* Move your storage account to the second resource group (see Example-Move-Resources.ps1 for an example)
-* Delete all resource groups from your Azure Pass subscription when complete
+Create a Windows virtual machine with PowerShell
+* https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
