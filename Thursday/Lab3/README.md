@@ -13,4 +13,4 @@ Create an Azure SQL database in the Azure portal
 * https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal
 
 Azure SQL Database: Use SQL Server Management Studio to connect and query data
-* Azure SQL Database: Use SQL Server Management Studio to connect and query data
+* https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-ssms
