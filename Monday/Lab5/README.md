@@ -2,8 +2,8 @@
 
 1. Use the Azure portal to launch a Windows Server and Ubuntu Server
 2. Manually install a web server on each (IIS, Apache)
-··* Windows = *Install-WindowsFeature web-server*
-··* Linux = *sudo apt-get install apache2*
+·· * Windows = *Install-WindowsFeature web-server*
+·· * Linux = *sudo apt-get install apache2*
 3. Modify your network security group rules to permit HTTP to both web servers and verify you can view a simple web page
 4. Delete your resource group from your Azure Pass subscription when complete
 
