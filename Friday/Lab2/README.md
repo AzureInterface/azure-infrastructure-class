@@ -1,7 +1,13 @@
-# Lab 2 - Azure Automation: DSC
+# Lab 2 - Azure Automation: Runbooks
 
-* Create a DSC configuration in your Automation account
-* Complile your DSC configuration to a node configuration
-* On-board a DSC node in your Automation account
-* Associate your node configuration with your DSC node
-* Verify that the DSC node applies the configuration
+1. Create an automation account w/ RunAs account
+2. Write a runbook that will start/stop your virtual machine based on a schedule. Imagine you're building a runbook that makes sure your instances run only during business hours.
+3. Try invoking your runbook using a webhook from an external app (powershell, curl, etc.)
+
+### Notes
+
+Getting Started with Azure Automation
+* https://docs.microsoft.com/en-us/azure/automation/automation-offering-get-started
+
+Creating or importing a runbook in Azure Automation
+* https://docs.microsoft.com/en-us/azure/automation/automation-creating-importing-runbook
