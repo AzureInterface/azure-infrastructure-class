@@ -6,8 +6,7 @@
 
 ---
 
-Notes:
+## Notes:
 
 Install and configure Azure PowerShell
-
-https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-3.8.0
+* https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-3.8.0
