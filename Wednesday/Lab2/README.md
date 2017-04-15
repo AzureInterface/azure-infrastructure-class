@@ -1,11 +1,13 @@
-# Lab 2 - Deploy a Load Balancer on Azure
+# Lab 2 - Create VNet-to-VNet VPN
 
-* Launch the load balancer ARM template from [here](https://github.com/Azure/azure-quickstart-templates/tree/master/201-2-vms-loadbalancer-natrules)
-* Verify you can connect remotely via NAT rules
-* Set up a basic web server / web page on each VM
-* Create a HTTP probe for the load balancer
-* Create a load balancer rule for HTTP
-* Verify you can visit your website through the load balancer
-* Verify your load balanced site still works after killing one of the web servers
-* Delete the resource group from your Azure Pass subscription when complete
+1. Create two new VMs in seperate VNETs and ensure those VNETs use completely seperate IPv4 address spaces
+2. Add a gateway subnet to each vnet
+3. Add a VPN gateway to each vnet
+4. Add a connection object to build the VPN tunnel between vnets
+5. Make sure you can ping across the tunnel from one server to the other
+6. Delete both resource groups from your Azure Pass subscription when complete
 
+### Notes
+
+Configure a VNet-to-VNet connection using the Azure portal
+* https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal
