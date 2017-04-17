@@ -3,10 +3,9 @@
 1. Create a new resource group in the portal
 2. Create a Windows Server and Ubuntu Server in your new resource group
 3. Verify that you can connect via RDP and SSH to your servers
-4. Delete the resource group
-5. Review the code in the New-AzureServer.ps1 script. Create a new server using this script
-6. Reset the admin password on one of your VMs and reconnect to ensure it worked
-7. Delete all resource groups in your Azure Pass subscription when complete
+4. Review the code in the New-AzureServer.ps1 script
+5. Reset the admin password on one of your VMs and reconnect to ensure it worked
+6. Delete all resource groups in your Azure Pass subscription when complete
 
 Bonus: Download and run the script in this repository (New-AzureServer.ps1) to create a VM from PowerShell
 
