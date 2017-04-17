@@ -5,7 +5,7 @@ Create a new Windows VM in the portal and perform the following tasks:
 1. Scale up to a larger VM size
 2. Shutdown your VM and increase the OS disk size to 1 TB
 3. Add two data disks to your VM each 1 TB in size
-4. Connect to the VM and run the PowerShell script in this repo (New-DataDiskStripeSet.ps1) to create a 2 TB volume in Windows
+4. Bonus: Connect to the VM and run the PowerShell script in this repo (New-DataDiskStripeSet.ps1) to create a 2 TB volume in Windows
 
 ### Notes:
 
