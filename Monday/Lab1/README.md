@@ -1,7 +1,7 @@
 # Lab1 - Installing Azure tools for Windows
 
-1. Install Microsoft Azure PowerShell (Install-Module AzureRM)
-2. Set your execution policy (Set-ExecutionPolicy remotesigned)
+1. Set your execution policy (Set-ExecutionPolicy remotesigned)
+2. Install Microsoft Azure PowerShell (Install-Module AzureRM)
 3. Make sure you can use the Login-AzureRmAccount cmdlet with your Azure Pass
 
 
