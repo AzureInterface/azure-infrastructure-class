@@ -2,6 +2,7 @@
 
 Create two Azure Web Apps:
 
+* Launch the "Visual Studio Community 2015 with Azure SDK 2.9 on Windows Server 2012 R2" Virtual Machine image to create a new VM
 * Create a new resource group
 * Add a new Web App to the resource group in West US. Name the app so you can tell where its provisioned (e.g. 23WebAppWest)
 * Add a new Web App to the resource group in East US. Name the app so you can tell where its provisioned (e.g. 23WebAppEast)
