@@ -16,3 +16,6 @@ PowerShell Gallery - xWebAdministration
 
 Opening ports to a VM in Azure using the Azure portal
 * https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nsg-quickstart-portal
+
+Uploading a DSC Config to Azure Storage
+* https://github.com/mikepfeiffer/azure-dsc-extention
