@@ -48,3 +48,7 @@
     }
 
 }
+
+WindowsWebServer
+
+Start-DscConfiguration -Path .\WindowsWebServer -Wait
