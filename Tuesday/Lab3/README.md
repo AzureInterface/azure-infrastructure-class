@@ -3,7 +3,7 @@
 1. Launch the AD Domain Controller ARM template from [here](https://github.com/AzureInterface/quickstart/tree/master/activedirectory)
 2. Launch a new Windows server into the same resource group / vnet as the domain controller
 3. Make sure your new VM can resolve DNS against the domain controller
-4. Use the Azure joindomain extention to join the server to your AD domain (see DomainJoin-Extention-Example.ps1 in this repo)
+4. Use the Azure joindomain extention to join the server to your AD domain (see Join-AzureVmDomain.ps1 in this repo)
 5. Delete the resource group from your Azure Pass subscription when complete
 
 ### Notes
