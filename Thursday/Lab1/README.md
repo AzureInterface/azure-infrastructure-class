@@ -3,13 +3,14 @@
 Deploy a Web App to Azure:
 
 1. Launch the "Visual Studio Community 2015 with Azure SDK 2.9 on Windows Server 2012 R2" Virtual Machine image to create a new VM
-2. Connect to your Visual Studio VM with RDP *Make sure you disable IESC*
-3. Use Visual Studio to create a new Web Application
-4. Go to file > new > project and create an empty ASP.NET website
-5. Right click the project name (e.g. WebApplication1) in the Solution Explorer, go to add > add new item, and add an html page to the project called default.html
-6. Add some text to the body of the html page
-7. Right click the project and select Publish Web App
-8. Deploy your site to a new Resource Group and App Service plan. Make sure to select at least a Standard tier App Service Plan
+2. Create a new App Service in the Azure Portal (Web App)
+3. Connect to your Visual Studio VM with RDP *Make sure you disable IESC*
+4. Use Visual Studio to create a new Web Application
+5. Go to file > new > project and create an empty ASP.NET website
+6. Right click the project name (e.g. WebApplication1) in the Solution Explorer, go to add > add new item, and add an html page to the project called default.html
+7. Add some text to the body of the html page
+8. Right click the project and select Publish Web App
+9. Deploy your site to a new Resource Group and App Service plan. Make sure to select at least a Standard tier App Service Plan
 
 Create a "Dev" Deployment Slot
 
