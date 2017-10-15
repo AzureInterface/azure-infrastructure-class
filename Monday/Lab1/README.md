@@ -8,8 +8,8 @@
 
 ### Notes:
 
-Install and configure Azure PowerShell
-* https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-3.8.0
+Quickstart for Bash in Azure Cloud Shell
+* https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart
 
 Persist files in Azure Cloud Shell
 * https://docs.microsoft.com/en-us/azure/cloud-shell/persisting-shell-storage
