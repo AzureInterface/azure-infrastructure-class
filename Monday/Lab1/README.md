@@ -1,11 +1,15 @@
-# Lab1 - Installing Azure tools for Windows
+# Lab1 - Configure Your Azure Cloud Shell
 
-1. Set your execution policy (Set-ExecutionPolicy remotesigned)
-2. Install Microsoft Azure PowerShell (Install-Module AzureRM)
-3. Make sure you can use the Login-AzureRmAccount cmdlet with your Azure Pass
+1. Launch Cloud Shell from the top navigation of the Azure portal (select bash)
+2. Select "Create storage" to create a storage account and Azure file share
+3. Run "az account list" to view your subscription details
+4. Persist data to your cloud drive. Create a text file in /home/<your username>/clouddrive and make sure that you can see it in the file share in your cloud shell storage account
 
 
 ### Notes:
 
 Install and configure Azure PowerShell
 * https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-3.8.0
+
+Persist files in Azure Cloud Shell
+* https://docs.microsoft.com/en-us/azure/cloud-shell/persisting-shell-storage
