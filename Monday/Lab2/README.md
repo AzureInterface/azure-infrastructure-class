@@ -2,7 +2,7 @@
 
 1. Create a new resource group in the portal
 2. Create a Windows Server and Ubuntu Server in your new resource group
-3. Verify that you can connect via RDP and SSH to your servers
+3. Verify that you can connect via RDP and SSH to your servers (hint, you can SSH using the cloud shell)
 4. Reset the admin password on one of your VMs and reconnect to ensure it worked
 5. Delete all resource groups in your Azure Pass subscription when complete
 
