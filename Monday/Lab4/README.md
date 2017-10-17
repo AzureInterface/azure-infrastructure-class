@@ -22,3 +22,6 @@ Create a VM from a generalized managed VM image
 
 How to capture an UNMANAGED VM image from a generalized Azure VM
 * https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image
+
+Copy Managed Images
+* https://michaelcollier.wordpress.com/2017/05/03/copy-managed-images/
