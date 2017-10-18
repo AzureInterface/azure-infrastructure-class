@@ -4,5 +4,5 @@ az vm extension set \
   --name JsonADDomainExtension \
   --vm-name MemberServer \
   --resource-group ADRG \
-  --settings '{"name":"example.com", "user":"sysadmin", "restart": true, "options":3}' \
+  --settings '{"name":"example.com", "user":"example\\sysadmin", "restart": true, "options":3}' \
   --protected-settings '{"Password":"P@ssw0rd2017"}'
