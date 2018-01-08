@@ -14,7 +14,7 @@ New-EventLog -LogName Application -Source DataDiskScript -ErrorAction SilentlyCo
 
 try {
     Write-Verbose 'Retrieving poolable data disks'
-    $pool = Get-PhysicalDisk -CanPool $true -ErrorAction Stop
+    $pool = Get-PhysicalDisk -FriendlyName 'Msft Virtual Disk' -ErrorAction Stop
 }
 catch {
     Write-Verbose 'No poolable data disks found'
