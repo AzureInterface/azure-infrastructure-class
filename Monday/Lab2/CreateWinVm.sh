@@ -34,7 +34,7 @@ az vm create \
     --image win2016datacenter \
     --admin-username azureuser \
     --admin-password $AdminPassword \
-    --size Standard_D2s_v3
+    --size Standard_F2s_v2
 
 # Open port 3389 to allow RDP traffic to host.
 az vm open-port --port 3389 --resource-group Servers --name myVM
