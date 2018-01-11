@@ -6,12 +6,10 @@ Create two Azure Web Apps:
 * Create a new resource group
 * Add a new Web App to the resource group in West US. Name the app so you can tell where its provisioned (e.g. 23WebAppWest)
 * Add a new Web App to the resource group in East US. Name the app so you can tell where its provisioned (e.g. 23WebAppEast)
-* Install the [Open From Azure Websites](https://visualstudiogallery.msdn.microsoft.com/60d414b1-4ead-4fde-9359-588aa126cd6c) Visual Studio extention
-* Download the publish profiles for each Web App
 
 Do this for each Web App:
 
-1. In Visual Studio, go to file > open > select Open from Azure Websites and navigate to your publish profile
+1. In Visual Studio, create a new project just we did in the last lab.
 2. With your Web App open in Visual Studio, right click on the Web App name in the Solution Explorer and select add > add new item and select html page
 3. Name you html page default.html
 4. Add a message to the body of the page that displays the Azure region, either east or west
