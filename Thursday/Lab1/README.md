@@ -2,7 +2,7 @@
 
 Deploy a Web App to Azure:
 
-1. Launch the "Visual Studio Community 2015 with Azure SDK 2.9 on Windows Server 2012 R2" Virtual Machine image to create a new VM
+1. Launch the "Visual Studio Community 2017 on Windows Server 2016 (x64)" Virtual Machine image to create a new VM
 2. Create a new App Service in the Azure Portal (Web App) Make sure to select at least a Standard tier App Service Plan
 3. Connect to your Visual Studio VM with RDP *Make sure you disable IESC*
 4. Use Visual Studio to create a new Web Application
