@@ -2,7 +2,7 @@
 
 Create two Azure Web Apps:
 
-* Launch the "Visual Studio Community 2015 with Azure SDK 2.9 on Windows Server 2012 R2" Virtual Machine image to create a new VM
+* Start/login to your Visual Studio VM
 * Create a new resource group
 * Add a new Web App to the resource group in West US. Name the app so you can tell where its provisioned (e.g. 23WebAppWest)
 * Add a new Web App to the resource group in East US. Name the app so you can tell where its provisioned (e.g. 23WebAppEast)
@@ -23,9 +23,8 @@ Create a Traffic Manager Profile:
 1. In the portal, search for Traffic Manager profile
 2. Create a new profile for your Web Apps and ensure the routing method is set to "performance"
 3. Add external endpoints for both the west and east Web Apps. Make sure to add them as "Azure" endpoints instead of external
-4. Visit your traffic manager URL to view the Web App. Did it route you to the correct location? If not, you may need to wait 5-10 mins for the platform to figure things out.
-5. You can also change the routing method for Traffic Manager to Priority. Then you can "stop" a Web App in the portal to test high availability / failover
-6. Delete all resource groups from your Azure Pass subscription when complete
+4. Visit your traffic manager URL to view the Web App. Did it route you to the correct location? If not, you may need to flush your local DNS cache.
+5. Delete all resource groups from your Azure Pass subscription when complete
 
 ### Notes
 
