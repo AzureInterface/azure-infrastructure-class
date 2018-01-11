@@ -9,7 +9,7 @@ Create two Azure Web Apps:
 
 Do this for each Web App:
 
-1. In Visual Studio, create a new project just we did in the last lab.
+1. In Visual Studio, create a new project just like we did in the last lab.
 2. With your Web App open in Visual Studio, right click on the Web App name in the Solution Explorer and select add > add new item and select html page
 3. Name you html page default.html
 4. Add a message to the body of the page that displays the Azure region, either east or west
