@@ -16,7 +16,7 @@ Create a "Dev" Deployment Slot
 
 1. In the portal, create a deployment slot in your Web App called "dev"
 2. Make a change to the default.html page in your project
-3. Deploy the updated version of your application to the "dev" deployment slot. Do this by right clicking the project and selecting Publish Web App - when the wizard comes up for publishing the app, make sure to go back to "profile", click on "Microsoft App Service" and then you'll be able to drill down into your Web App to select your "dev" deployment slot
+3. Deploy the updated version of your application to the "dev" deployment slot. Do this by right clicking the project and selecting Publish Web App - when the wizard comes up for publishing the app, create a new publish profile for your "dev" slot. Click on "Select Existing" for Microsoft App Service and then you'll be able to drill down into your Web App to select your "dev" deployment slot.
 4. Navigate to your "dev" url to see the new version of the Web App
 5. After you confirm you have two different versions of your Web App running in the prod and dev deployment slots, perform a deployment slot swap in the portal.  Swap using the "dev" site as the source to destination "production". This simulates moving a new version of your app into production
 6. Navigate to the production url to confirm the new version of the app is running there
