@@ -9,12 +9,10 @@ Create two Azure Web Apps:
 
 Do this for each Web App:
 
-1. In Visual Studio, create a new project just like we did in the last lab.
-2. With your Web App open in Visual Studio, right click on the Web App name in the Solution Explorer and select add > add new item and select html page
-3. Name you html page default.html
-4. Add a message to the body of the page that displays the Azure region, either east or west
-5. Right click on the html page in the Solution Explorer and click on publish
-6. Navigate to your Web App using the public URL (you can get this in the portal) and ensure you see your webpage
+1. Navigate to the web app in the Azure Portal
+2. Open the App Service Editor for the web app
+3. Add a message to the body of the hostingstart.html page that displays the Azure region (either east or west)
+4. Visit to your Web App using the public URL (you can get this in the portal) and ensure you see your webpage with the correct region listed on the page
 
 Create a Traffic Manager Profile:
 
