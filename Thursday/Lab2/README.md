@@ -2,7 +2,6 @@
 
 Create two Azure Web Apps:
 
-* Start/login to your Visual Studio VM
 * Create a new resource group
 * Add a new Web App to the resource group in West US. Name the app so you can tell where its provisioned (e.g. 23WebAppWest)
 * Add a new Web App to the resource group in East US. Name the app so you can tell where its provisioned (e.g. 23WebAppEast)
